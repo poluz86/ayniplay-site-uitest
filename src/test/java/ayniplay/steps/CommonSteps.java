@@ -18,12 +18,15 @@ public class CommonSteps {
     @Before
     public void Before(Scenario scenario) throws MalformedURLException {
 
-        long dd =  Thread.currentThread().getId();
+        long dd = Thread.currentThread().getId();
         WebDriver d = DriverManager.GetDriver();
 
     }
+
     @After
     public void After() throws MalformedURLException {
         DriverManager.ReleaseDriver();
     }
 }
+
+
