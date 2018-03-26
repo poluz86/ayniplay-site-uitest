@@ -33,7 +33,7 @@ public class SimpleSteps{
     public void an_action_takes_place() throws Throwable {
         WebDriver d = DriverManager.GetDriver();
         WebElement input = d.findElement(By.id("lst-ib"));
-        input.sendKeys("scarlett johanson");
+        input.sendKeys("testing ");
     }
 
     @Then("^the expected behavior is displayed$")
