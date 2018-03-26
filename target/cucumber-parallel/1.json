@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2439673742,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.Before(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "simple view",
+        "description": "",
+        "id": "my-dashboard-feature;simple-view",
+        "after": [
+          {
+            "result": {
+              "duration": 2421734464,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.After()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7861359715,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a precondition",
+            "match": {
+              "location": "SimpleSteps.a_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103959809,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "an action takes place",
+            "match": {
+              "location": "SimpleSteps.an_action_takes_place()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11189178005,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the expected behavior is displayed",
+            "match": {
+              "location": "SimpleSteps.the_expected_behavior_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My dashboard feature",
+    "description": "",
+    "id": "my-dashboard-feature",
+    "keyword": "Feature",
+    "uri": "F:/temp/ayniplay-site-uitest/target/classes/dashboard.feature"
+  }
+]

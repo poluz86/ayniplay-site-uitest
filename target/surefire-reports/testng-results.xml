@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="46461" started-at="2018-03-26T03:40:31Z" finished-at="2018-03-26T03:41:18Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ayniplay.generated.Parallel01IT@39fb3ab6]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ayniplay.generated.Parallel02IT@6276ae34]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Cucumber" duration-ms="46461" started-at="2018-03-26T03:40:31Z" finished-at="2018-03-26T03:41:18Z">
+      <class name="ayniplay.generated.Parallel02IT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:ayniplay.generated.Parallel02IT@6276ae34]" name="setUpClass" is-config="true" duration-ms="7" started-at="2018-03-25T22:40:56Z" finished-at="2018-03-25T22:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ayniplay.generated.Parallel02IT@6276ae34]" name="feature" duration-ms="22226" started-at="2018-03-25T22:40:56Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-03-25T22:41:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[My hello feature number one]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ayniplay.generated.Parallel02IT@6276ae34]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2018-03-25T22:41:18Z" finished-at="2018-03-25T22:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ayniplay.generated.Parallel02IT -->
+      <class name="ayniplay.generated.Parallel01IT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:ayniplay.generated.Parallel01IT@39fb3ab6]" name="setUpClass" is-config="true" duration-ms="134" started-at="2018-03-25T22:40:31Z" finished-at="2018-03-25T22:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ayniplay.generated.Parallel01IT@39fb3ab6]" name="feature" duration-ms="24025" started-at="2018-03-25T22:40:32Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-03-25T22:40:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[My dashboard feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ayniplay.generated.Parallel01IT@39fb3ab6]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2018-03-25T22:40:56Z" finished-at="2018-03-25T22:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ayniplay.generated.Parallel01IT -->
+    </test> <!-- Cucumber -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

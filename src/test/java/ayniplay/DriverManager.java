@@ -1,6 +1,7 @@
 package ayniplay;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.sql.Driver;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -22,6 +23,18 @@ public class DriverManager{
             ID.set(id);
         }
         return id;
+    }
+    public static void ReleaseDriver(){
+        WebDriver d = DriverManager.DriverInstance.get();
+        if ( d != null){
+            try{
+                d.close();
+                d.quit();
+            }
+            finally {
+                DriverManager.DriverInstance.remove();
+            }
+        }
     }
     public static WebDriver GetDriver() throws MalformedURLException{
         WebDriver d = DriverManager.DriverInstance.get();

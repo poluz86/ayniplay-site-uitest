@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 
 import java.net.MalformedURLException;
 
+
 @StepDefAnnotation
 public class CommonSteps {
 
@@ -23,11 +24,6 @@ public class CommonSteps {
     }
     @After
     public void After() throws MalformedURLException {
-        WebDriver d = DriverManager.GetDriver();
-        if (d!= null)
-        {
-            d.close();
-            d.quit();
-        }
+        DriverManager.ReleaseDriver();
     }
 }

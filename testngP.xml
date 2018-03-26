@@ -5,7 +5,7 @@
         data-provider-thread-count="20">
     <test name="Cucumber" annotations="JDK">        
         <packages>
-            <package name="com.verizon.generated" />
+            <package name="ayniplay.generated" />
         </packages>
     </test>
 </suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BDD Test Suite]">
+  <test name="Cucumber(failed)">
+    <classes>
+      <class name="ayniplay.generated.Parallel02IT">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- ayniplay.generated.Parallel02IT -->
+      <class name="ayniplay.generated.Parallel01IT">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- ayniplay.generated.Parallel01IT -->
+    </classes>
+  </test> <!-- Cucumber(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

@@ -67,11 +67,11 @@
                         </goals>
                         <configuration>
                             <useTestNG>true</useTestNG>
-                            <glue>com.verizon.steps</glue>
+                            <glue>ayniplay.steps</glue>
                             <featuresDirectory>${project.build.directory}/classes</featuresDirectory>
                             <outputDirectory>${project.build.directory}/generated-test-sources/cucumber</outputDirectory>
                             <cucumberOutputDir>target/cucumber-parallel</cucumberOutputDir>
-                            <packageName>com.verizon.generated</packageName>
+                            <packageName>ayniplay.generated</packageName>
                         </configuration>
                     </execution>
                 </executions>
